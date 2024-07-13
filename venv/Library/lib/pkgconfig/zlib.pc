@@ -1,0 +1,13 @@
+prefix=E:/LLM_projects/content_generation_LLM_application/venv/Library
+exec_prefix=E:/LLM_projects/content_generation_LLM_application/venv/Library
+libdir=E:/LLM_projects/content_generation_LLM_application/venv/Library/lib
+sharedlibdir=E:/LLM_projects/content_generation_LLM_application/venv/Library/lib
+includedir=E:/LLM_projects/content_generation_LLM_application/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,3 @@
+streamlit #used for the fron-end
+google-generativeai #used for gemini api
+python-dotenv # used for the upload of environment variables
