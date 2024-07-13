@@ -1,5 +1,3 @@
-**README.md**
-
 ## Gemini's Wisdom Well 🔮
 
 Welcome to Gemini's Wisdom Well, your AI-powered question-answering oracle! This Streamlit application harnesses the power of Google's Gemini LLM (Large Language Model) to provide insightful responses to your inquiries.
