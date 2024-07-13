@@ -1,5 +1,3 @@
-Absolutely! Here's a README file tailored for your Gemini Q&A application, including instructions on using the `.env` file for the API key:
-
 **README.md**
 
 ## Gemini's Wisdom Well 🔮
