@@ -1,13 +1,22 @@
-## Gemini's Wisdom Well 🔮
+## Gemini's Wisdom Well 🔮: A Text and Image Understanding Oracle
 
-Welcome to Gemini's Wisdom Well, your AI-powered question-answering oracle! This Streamlit application harnesses the power of Google's Gemini LLM (Large Language Model) to provide insightful responses to your inquiries.
+Welcome to Gemini's Wisdom Well, an AI-powered application that unlocks the power of Google's Gemini LLM to interpret both text and images! This Streamlit app offers two modes of interaction:
+
+1. **Textual Q&A (app.py):**
+   - Ask any question and receive insightful answers from Gemini.
+   - Ideal for general knowledge queries, explanations, creative writing prompts, etc.
+
+2. **Image Analysis (vision.py):**
+   - Upload an image and get a description or analysis from Gemini.
+   - Great for understanding the content of images, generating captions, or sparking creative ideas.
+
 
 ### Features
 
-* **Ask Any Question:** Explore the depths of knowledge with Gemini's vast understanding.
-* **Instant Answers:** Receive quick and comprehensive responses from the AI oracle.
+* **Multimodal Understanding:** Gemini can process both text and image inputs to provide comprehensive responses.
+* **Instant Answers:** Receive quick and informative feedback from the AI model.
 * **Interactive Interface:** Enjoy a user-friendly Streamlit web app for seamless interaction.
-* **Customization:** Adapt the style and behavior of the app to your preferences.
+* **Customization:** Adapt the appearance and functionality of the app through CSS.
 
 ### Getting Started
 
@@ -31,32 +40,40 @@ Welcome to Gemini's Wisdom Well, your AI-powered question-answering oracle! This
 
 **Important Note:** You must obtain your own Gemini API key from Google and replace `your_gemini_api_key_here` with your actual key. The `.env` file is used to keep your API key secure and out of version control.
 
-4. **Run the Application:**
-   ```bash
-   streamlit run app.py
-   ```
+4. **Run the Desired Application:**
+
+   * **Textual Q&A:**
+     ```bash
+     streamlit run app.py
+     ```
+
+   * **Image Analysis:**
+     ```bash
+     streamlit run vision.py
+     ```
 
 ### How to Use
 
-1. Open the app in your web browser.
-2. Type your question into the text box.
-3. Click "Ask the question" to receive Gemini's answer.
+* **Textual Q&A:**
+   1. Type your question into the text box.
+   2. Click "Ask the question" to get Gemini's response.
+
+* **Image Analysis:**
+   1. Upload an image using the file uploader.
+   2. Optionally, provide a text prompt to guide the analysis.
+   3. Click "Tell me about the image" to get Gemini's description.
 
 ### Code Explanation
 
-* **`app.py`:** The main Python script that creates the Streamlit web app.
-* **`.env`:** Stores your Google Gemini API key for security.
+* **`app.py`:**  Script for the textual question-answering interface.
+* **`vision.py`:** Script for the image analysis interface.
+* **`.env`:** Stores your Google Gemini API key.
 * **`requirements.txt`:** Lists the Python libraries required to run the app.
 
-### Customization
+### Customization (Optional)
 
-Feel free to explore and customize the app! You can modify the CSS to change the appearance, add new features, or even integrate other LLMs.
-
+You can tailor the app's appearance using the CSS styles provided in the code.  Feel free to experiment with different colors, fonts, and layouts to personalize the experience.
 
 ### Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests to enhance the project.
-
-
----
-Let me know if you'd like any modifications to this README file. Feel free to suggest any specific details or sections you want to highlight!
+Contributions are encouraged! If you have any ideas for new features, improvements, or bug fixes, please open an issue or submit a pull request.
